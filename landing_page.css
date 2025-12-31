@@ -1,0 +1,349 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{ 
+    width: 50%;
+}
+
+.section1{
+   max-height: 100vh; 
+   color: #711e15;
+}
+
+.section1 h1{
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.dumbellimg{
+    width: 289px;
+}
+
+.topright .gymimg{
+    width: 466px;
+    height:90vh;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+    */
+
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 90vw;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 10px 0;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 8px 12px;
+}
+
+/* Header logo */
+.logo {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+/* Section 1 layout */
+.section1 {
+    color: #711e15;
+    padding: 20px 0;
+}
+
+.section1 h1 {
+    color: #37110d;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.topleft,
+.topright {
+    width: 100%;
+    padding: 10px;
+}
+
+.dumbellimg,
+.gymimg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* Section 2 */
+.section2 {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section2 h1 {
+    font-size: 2rem;
+}
+
+.section2 p {
+    padding: 0 5vw;
+}
+
+/* Pricing boxes */
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    flex: 1 1 250px;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.box ul li {
+    margin: 10px 0;
+}
+
+/* Section 3 */
+.section3 {
+    padding: 40px 20px;
+}
+
+.section3 h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.plantable {
+    overflow-x: auto;
+}
+
+.section3 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.section3 table th,
+.section3 table td {
+    border-bottom: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Deal text */
+.deal {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 12px 0;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    font-size: 0.9rem;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .topleft,
+    .topright {
+        width: 50%;
+    }
+
+    .section1 .flex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 480px) {
+    .section1 h1,
+    .section2 h1,
+    .section3 h1 {
+        font-size: 1.5rem;
+    }
+
+    .box {
+        flex: 1 1 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
